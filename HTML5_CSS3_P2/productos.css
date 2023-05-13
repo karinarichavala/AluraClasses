@@ -1,0 +1,33 @@
+header {
+
+    background-color: #bbbbbb
+}
+
+.caja {
+
+    width: 940px
+}
+
+nav {
+
+    position: absolute;
+    top: 110px;
+    right: 0;
+
+}
+
+nav li {
+
+    display: inline-block; /*para que cada linea de la lista no ocupe toda la linea en la pagina sino solo el espacio que le corresponde*/
+    margin: 0 0 0 15px /*para que haya un margen entre cada elemento de la lista*/
+}
+
+nav a {
+
+    text-transform: uppercase; /*para que los links esten en mayuscula*/
+    color: #000000; /*para que los links tengan un color negro*/
+    font-weight: bold; /*para que los links tengan un color blanco*/
+    font-size: 22px;
+    text-decoration: none;/*para que no apareza el subrayado*/
+
+}

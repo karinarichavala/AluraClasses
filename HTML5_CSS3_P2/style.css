@@ -1,0 +1,88 @@
+/*
+Este archivo tiene como objetivo definir estilo css, para que no se mezcle con 
+el contenido html, todo esto como parte de una BUENA PRACTICA
+*/
+body{
+    background: #CCCCCC;
+
+}
+
+tituloPrincipal{
+    padding-left: 30px;
+}
+
+#banner{
+    width:100%; 
+}
+
+.principal {
+    background: #CCCCCC;
+    padding: 20px;
+}
+
+.tituloCentralizado {
+
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+em strong{
+    color:red;
+}
+
+#mision{
+    font-size: 500px;
+}
+
+
+.diferenciales {
+
+    background: #FFFFFF;
+    padding: 30px;
+}
+
+.items {
+
+    font-style: italic;
+}
+
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.imagenDiferenciales {
+
+    width: 20%;
+}
+
+/*
+Propiedades de un elemento css
+    - height: alto
+    - width: ancho
+    - padding: margen interno
+    - margin: margen externo
+
+*/
+
+/*
+Identificadores
+    - Otorgan propiedades y estilos css a elementos html y se definen con 
+    el atributo id en la etiqueta html, ejemplo <h1 id="banner">, <p id="mision">
+    - Se identifican con el simbolo # al inicio de su declaración, ejemplo #mision
+*/
+
+/*
+Clases
+    - Otorgan propiedades y estilos css a elementos html y se definen con 
+    el atributo class en la etiqueta html, ejemplo <h1 class="principal">, <p class="items">
+    - Se identifican con el simbolo . al inicio de su declaración, ejemplo .principal
+*/
+
+
+
