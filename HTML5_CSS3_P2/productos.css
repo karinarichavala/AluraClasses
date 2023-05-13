@@ -1,6 +1,7 @@
 header {
 
-    background-color: #bbbbbb
+    background-color: #bbbbbb;
+    padding: 20px 0;
 }
 
 .caja {
@@ -20,7 +21,7 @@ nav {
 
 nav li {
 
-    display: inline-block; /*para que cada linea de la lista no ocupe toda la linea en la pagina sino solo el espacio que le corresponde*/
+    display: inline; /*para que cada linea de la lista no ocupe toda la linea en la pagina sino solo el espacio que le corresponde*/
     margin: 0 0 0 15px /*para que haya un margen entre cada elemento de la lista*/
 }
 
