@@ -34,3 +34,8 @@ nav a {
     text-decoration: none;/*para que no apareza el subrayado*/
 
 }
+
+.productos li {
+
+    display: inline-block;
+}
